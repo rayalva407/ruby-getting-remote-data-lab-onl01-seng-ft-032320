@@ -2,6 +2,6 @@ require 'net/http'
 require 'open-uri'
 require 'json'
 
-class GetRequester
-  attr_accessor :url
+class GetRequester(url)
+  @url = url
 end
