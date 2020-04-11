@@ -1,7 +1,7 @@
 class GetRequester
   
-  def intialize(url)
-    @URL = url
+  def intialize
+    @URL = ""
   end
   
   def get_response_body()
