@@ -17,7 +17,7 @@ class GetRequester
   def parse_json
     parsed = JSON.parse(self.get_programs)
     parsed.collect do |data|
-      data["agency"]
+      data
     end
   end
   
