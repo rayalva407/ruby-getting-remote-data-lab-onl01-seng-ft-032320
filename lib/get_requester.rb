@@ -3,7 +3,7 @@ require 'open-uri'
 require 'json'
 
 class GetRequester
-  URL = "http://data.cityofnewyork.us/resource/uvks-tn5n.json"
+  URL = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json'
  
   def get_programs
     uri = URI.parse(URL)
